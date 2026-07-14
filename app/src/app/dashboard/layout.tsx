@@ -65,7 +65,7 @@ export default function DashboardLayout({
             </div>
             <div>
               <div style={{ fontSize: 15, fontWeight: 700, color: "var(--text-primary)", lineHeight: 1.1 }}>
-                ShopBot AI
+                Cluster Ship
               </div>
             </div>
           </div>

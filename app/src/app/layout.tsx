@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ShopBot AI — WhatsApp Commerce Platform",
+  title: "Cluster Ship — WhatsApp Commerce Platform",
   description:
     "WhatsApp AI shopping assistant. Sell directly to customers via WhatsApp, managed through a centralized dashboard.",
   keywords: "WhatsApp, AI, shopping, ecommerce",
