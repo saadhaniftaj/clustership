@@ -77,15 +77,15 @@ export default function SettingsPage() {
         </p>
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", gap: 20, alignItems: "flex-start" }}>
-        {/* Sidebar tabs */}
-        <div className="glass" style={{ borderRadius: 14, padding: 10 }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: 20, alignItems: "stretch" }}>
+        {/* Top tabs */}
+        <div className="glass" style={{ borderRadius: 14, padding: "10px 14px", display: "flex", gap: 8, overflowX: "auto" }}>
           {tabs.map(({ id, label, icon: Icon }) => (
             <button
               key={id}
               onClick={() => setActiveTab(id)}
               className={`nav-item ${activeTab === id ? "active" : ""}`}
-              style={{ width: "100%", marginBottom: 2, border: "none", background: "none", textAlign: "left" }}
+              style={{ border: "none", background: "none", whiteSpace: "nowrap" }}
             >
               <Icon size={15} />
               {label}
